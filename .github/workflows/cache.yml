@@ -1,9 +1,12 @@
 name: Cache Google Sheets Data
 
 on:
-  schedule:
-    # Run this workflow every minute
-    - cron: '* * * * *'
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   cache-data:
