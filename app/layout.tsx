@@ -24,6 +24,11 @@ export default function RootLayout({
         ></meta>
       </Head>
       <body className={inter.className}>{children}</body>
+      <script
+        async
+        src="https://eu.umami.is/script.js"
+        data-website-id="d770d165-8584-47dd-a009-af28af370ed6"
+      ></script>
     </html>
   );
 }
