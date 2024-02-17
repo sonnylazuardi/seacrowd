@@ -39,7 +39,7 @@ export const Navbar = () => {
   const renderLogo = () => {
     return (
       <a href="/seacrowd" className="ml-2 font-bold text-xl flex items-center">
-        <Image src={"/logo.png"} alt="logo" width={186} height={32} />
+        <Image src={"/seacrowd/logo.png"} alt="logo" width={186} height={32} />
       </a>
     );
   };
